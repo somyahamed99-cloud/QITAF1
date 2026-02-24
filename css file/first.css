@@ -1,1 +1,93 @@
+body {
+    background-color: rgba(41, 13, 3, 0.945);
+}
+ul {
+    background: #fff;
+    border: 1px solid #cecece ;
+    border-radius: 10px ;
+    width: 100% ;
+    text-align: center ;
+    margin-top: 0 ;
+
+}
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+ul li a {
+    color: #000 ;
+    text-decoration: none;
+    background: transparent;
+    padding: 0 ;
+    display: inline-block;
+    justify-content: center;
+    font-size: 30px;
+}
+img {  
+
+    height: 640px;;
+    width: 100%;
+}
+pre {   
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: right;
+    padding-right: 10px;
+color: rgba(41, 13, 3, 0.945);
+}
+
+.overlay {
+height:100% ;
+width:0 ;
+position: fixed;
+z-index: 1; 
+left:0 ;
+top: 0;
+background-color:rgb(0,0,0) ;
+background-color:rgba(0, 0, 0, 0.9) ;
+overflow: hidden;
+transition: 0.5s;
+}
+.overlay-content {
+position: relative;
+top: 25%;
+width: 100%;
+text-align: center;
+margin: 30px;
+}
+.overlay a {
+padding: 8px;
+text-decoration: none;
+font-size: 36px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+.overlay a :hover ,.overlay
+a:focus {
+    color: #f1f1f1;
+}
+.overlay .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 60px;
+}
+@media screen and (max-height:450px) {
+.overlay a { font-size: 20px;}
+.overlay .closebtn {
+font-size: 40px;
+top: 15px;
+right: 35px;
+}  
+}
+.A{ 
+    background-color: rgb(248, 241, 229);
+    height: 300px;
+    width: 100%;
+
+}
+
+
+
+
 
